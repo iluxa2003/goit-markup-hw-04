@@ -166,7 +166,7 @@ section h2{
     font-style: normal;
 }
 .link svg{
-    margin-right: 10pxs;
+    margin-right: 10px;
 }
 .link:hover{
     color: var(--hover-color);
