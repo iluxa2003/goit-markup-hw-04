@@ -227,7 +227,7 @@ address li:last-child{
     /* padding: 200px 0; */
     height: 600px;
     color: var(--white-color);
-    background-image: url("/images/back-image.jpg") center no-repeat;
+    background-image: url("/images/back-image.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     padding: 0 0;
