@@ -48,7 +48,8 @@ body{
 }
 .container {
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    width: 1200px;
     margin: 0 auto;
 }
 header .container {
@@ -128,6 +129,9 @@ header nav ul{
     border-radius: 4px;
     background-color: var(--light-gray-color);
 }
+.buttons:hover{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .button-index{
     align-self: center;
     cursor: pointer;
@@ -167,6 +171,7 @@ section h2{
 }
 .link svg{
     margin-right: 10px;
+    vertical-align: middle;
 }
 .link:hover{
     color: var(--hover-color);
@@ -393,8 +398,8 @@ height: 44px;
 .icon{
     width: 20px;
     height: 20px;
-  fill: var(--gray-color);
-
+    fill: var(--border-color);
+    vertical-align: middle; 
     
 
 }
@@ -424,7 +429,7 @@ height: 44px;
 }
 .companies div{
     width:170px;
-    height:90px;
+    height:92px;
     padding: 16px 32px;
     border: 1px solid var(--border-color);
     box-sizing: border-box;
