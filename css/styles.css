@@ -172,6 +172,7 @@ section h2{
 .link svg{
     margin-right: 10px;
     vertical-align: middle;
+    fill: currentColor;
 }
 .link:hover{
     color: var(--hover-color);
